@@ -1,0 +1,26 @@
+{
+	"layer" : "bottom",
+	"position" : "left",
+	"margin-bottom" : 0,
+	"margin-top" : 500,
+	"margin-right" : 0,
+	"margin-left": 8,
+	
+	"modules-left" : ["sway/workspaces"],
+	"modules-center" : ["custom/applauncher"],
+	"modules-right" : [""],
+
+	"sway/workspaces" : {
+		"all-outputs" : false,
+		"tooltip" : false
+}
+
+	"custom/applauncher" : {
+		"format" : "0",
+		"on-click":"wofi --show drun --location=top -y 15",
+		"tooltip: false
+}
+
+
+}
+	
