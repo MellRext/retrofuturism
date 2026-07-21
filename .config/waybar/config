@@ -1,9 +1,9 @@
 {
-	"layer" : "bottom",
+	"layer" :"bottom",
 	"position" : "left",
 	"margin-bottom" : 100,
 	"margin-top" : 100,
-	"margin-right" : 0,
+	"margin-right" : 0, 
 	"margin-left": 8,
 	
   "modules-left": [
@@ -14,7 +14,7 @@
     "custom/applauncher",
     "custom/shutdownmenu",
     "custom/bluetooth",
-    "custome/discordlauncher"
+    
   ],
   "modules-right": [
     "",
@@ -52,6 +52,7 @@
   "custom/shutdownmenu": {
     "format": "【⏻】",
     "on-click": "poweroff",
+    "on-right-click": "reboot",
     "tooltip": false
   },
 

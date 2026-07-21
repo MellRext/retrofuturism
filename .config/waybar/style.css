@@ -12,8 +12,21 @@ window#waybar {
   background-image: linear-gradient(to bottom, #100916 50%);
   border-radius: 14px;
   padding: 0px;
-  border-style: none;
+  border-style:solid;
+  border-width: 4px;
+  border-color: #504958;
 }
+
+window#waybar:hover {
+  /* Linear gradients are used because it makes less harsh rounded border radius, gtk bug :p */
+  background-image: linear-gradient(to bottom, #9876b4 50%);
+  border-radius: 14px;
+  padding: 0px;
+  border-style:solid;
+  border-width: 4px;
+  border-color: #312c37;
+}
+
 
 
 #clock,
